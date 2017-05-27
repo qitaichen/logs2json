@@ -1,4 +1,5 @@
 #!/bin/sh
 
 
-python apache/main.py $*
+baseDir=`dirname $0`
+python $baseDir/apache/main.py $*
