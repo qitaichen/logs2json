@@ -2,4 +2,4 @@
 
 
 baseDir=`dirname $0`
-python $baseDir/apache/main.py $*
+python $baseDir/json/main.py $*
